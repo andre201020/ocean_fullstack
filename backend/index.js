@@ -16,9 +16,11 @@ async function main() {
 
 console.log(`Tentando conexão com o DB...`);
 
+/*
 const client = await MongoClient.connect(url);
 const db = client.db(dbName);
 const collection = db.collection("pontuacoes");
+*/
 
 console.log(`Conectado com sucesso ao DB!`);
 
